@@ -1,7 +1,7 @@
-name: Rust Proj Dev Container
+name: Rust Command Line App
 services:
   devcontainer:
-    container_name: rust-devcontainer
+    container_name: rust-command-line-app
     build:
       context: .
       dockerfile: Dockerfile
